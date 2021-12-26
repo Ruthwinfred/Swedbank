@@ -1,0 +1,380 @@
+/* Header starts here  */
+  #head{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    margin: 0;
+} 
+
+.btn{
+  float: right;
+  overflow: hidden;
+  border: none; 
+  padding: 14px 16px;
+  background-color:rgb(255, 255, 255);
+  font: message-box;
+  cursor: pointer;
+  color: black;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* Header ends here */
+
+#img2{
+  max-width: 60px;
+  max-height: 60px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+  }
+  
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 30%;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center; 
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: rgba(248, 18, 10, 0.974);
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: rgba(248, 106, 10, 0.679);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgba(248, 106, 10, 0.679);
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: rgba(248, 106, 10, 0.679);
+  }
+
+
+
+/* Footer starts here */
+  footer{
+    background-color:rgba(77, 74, 72, 0.275);
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    color: white;
+    font-kerning: normal;
+    word-wrap: break-word;
+  }
+  
+  #f{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 30px; 
+  }
+  #c{
+    text-align: center;
+    background-color:rgba(248, 106, 10, 0.679) ;
+    width: 100%;
+    color:white;
+  }
+    /* * {
+      box-sizing: border-box;
+    } */
+    #mac{
+      word-spacing: 10px;
+    color:white;
+    font-size: 30px;
+    }
+    
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      /* border: 1px solid silver; */
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .top-nav {
+      background-color:rgba(248, 106, 10, 0.679);
+      font-size: 40px;
+      word-break: break-all;
+      text-align: center;
+      width: 100%;
+      height: 50px;
+      margin: 0;
+      color: white;
+    }
+    
+    #fa{
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .bttn{
+      font-size: 15px;
+      word-break: break-all;
+      text-align: center;
+      margin: 0;
+      color: white;
+      float: right;
+  }
+  #img1{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 140px;
+    
+  }
+  #img2{
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  #img3{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 8px;
+    float: left;
+  }
+  #img4{
+    width: 100%;
+    height: 500px;
+  }
+  #img5{
+    width: 100%;
+    height: 400px;
+  }
+  #img6{
+    width: 40px;
+    height: 32px;
+    float: left;
+    margin-left: 15px;
+    border-radius: 50%;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+    .col-1 {
+      width: 8.33%
+    }
+    
+    .col-2 {
+      width: 16.66%
+    }
+    
+    .col-3 {
+      width: 25%
+    }
+    
+    .col-4 {
+      width: 33.33%
+    }
+    
+    .col-5 {
+      width: 41.66%
+    }
+    
+    .col-6 {
+      width: 50%
+    }
+    
+    .col-7 {
+      width: 58.33%
+    }
+    
+    .col-8 {
+      width: 66.66%
+    }
+    
+    .col-9 {
+      width: 75%
+    }
+    
+    .col-10 {
+      width: 83.33%
+    }
+    
+    .col-11 {
+      width: 91.66%
+    }
+    
+    .col-12 {
+      width: 100%
+      
+    }
+    
+    .home-para p {
+      color: white;
+      font-size: 1.5vw;
+    }
+    * {
+      box-sizing: border-box;
+  }
+  
+  [class*="col-"] {
+      float: left;
+      padding: 15px;
+  }
+  
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+    
+    #h1 {
+      font-size: 20px;
+      color: rgba(248, 106, 10, 0.679);
+      text-align: center;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    #h2 {
+      font-size: 15px;
+      color: rgba(248, 106, 10, 0.679);
+      text-align: center;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    #h {
+      font-size: 30px;
+      color: black;
+      text-align: center;
+    }
+    
+    #h3 {
+      color: white;
+      font-size: 12px;
+    }
+  
+    #f{
+      font-size: 18px;
+      word-break: break-all;
+      text-align: center;
+    }
+    #p{
+      font-size: 20px;
+      word-break: break-all;
+      text-align: center;
+      color: #000;
+    }
+    #l{
+      font-size: 15px;
+    }
+
+    .cent {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+    }
+
+    /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+ /* Responsive layout - makes a two column-layout instead of four columns  */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
