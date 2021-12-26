@@ -440,7 +440,7 @@ label > input[type="radio"] + * {
 #img5{
   max-width: 40px;
   max-height: 40px;
-  margin-top: 80px;
+  margin-top: 70px;
   margin-left: 45%;
 }
 #img6{
@@ -618,7 +618,7 @@ body {
     }
     #cent {
       text-align: center;
-      margin-top: 5%;
+      margin-top: 20%;
       margin-left: 50%;
       transform: translate(-50%, -50%);
       color: rgba(248, 106, 10, 0.679);
