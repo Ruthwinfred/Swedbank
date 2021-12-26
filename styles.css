@@ -1,3 +1,17 @@
+/* Top nav begins here */
+.top-nav {
+  background-color:rgba(248, 106, 10, 0.679);
+  font-size: 40px;
+  word-break: break-all;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  color: white;
+}
+/* Top nav ends here */
+
+
 /* Header starts here  */
   #head{
     background-color:rgb(255, 255, 255);
@@ -5,43 +19,137 @@
     height: 80px;
     margin: 0;
 } 
-
-.btn{
-  float: right;
-  overflow: hidden;
-  border: none; 
-  padding: 14px 16px;
-  background-color:rgb(255, 255, 255);
-  font: message-box;
-  cursor: pointer;
-  color: black;
-  margin-top: 20px;
-  margin-right: 45px;
-}
-
-
-a{
-  text-decoration: none;
-  color: black;
-}
 /* Header ends here */
 
+
+/* Images start here */
+#img1{
+  max-height: 70px;
+  max-width: 70px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 140px;
+}
 #img2{
-  max-width: 60px;
-  max-height: 60px;
+  max-width: 50px;
+  max-height: 50px;
   float: left;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 40px;
+}
+#img3{
+  max-height: 70px;
+  max-width: 70px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 8px;
+  float: left;
+}
+#img4{
+  width: 100%;
+  height: 500px;
+}
+#img5{
+  max-width: 80px;
+  max-height: 80px;
+  margin-top: 80px;
+  margin-left: 45%;
+}
+#img6{
+  max-width: 50px;
+  max-height: 50px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 85%;
+}
+/* Images end here */
+
+
+/* Columns begin here */
+.col-1 {
+  width: 8.33%
 }
 
+.col-2 {
+  width: 16.66%
+}
+
+.col-3 {
+  width: 25%
+}
+
+.col-4 {
+  width: 33.33%
+}
+
+.col-5 {
+  width: 41.66%
+}
+
+.col-6 {
+  width: 50%
+}
+
+.col-7 {
+  width: 58.33%
+}
+
+.col-8 {
+  width: 66.66%
+}
+
+.col-9 {
+  width: 75%
+}
+
+.col-10 {
+  width: 83.33%
+}
+
+.col-11 {
+  width: 91.66%
+}
+
+.col-12 {
+  width: 100%
+  
+}
+/* Columns end here */
+
+
+/* h begins here */
+#h1 {
+  font-size: 20px;
+  color: rgba(248, 106, 10, 0.679);
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#h2 {
+  font-size: 15px;
+  color: rgba(248, 10, 10, 0.94);
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#h {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+/* h ends here  */
+
+/* Form begins here */
+body {
+  background-color: #f1f1f1;
+}
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-  }
-  
+  box-sizing: border-box;
+}
   #regForm {
     background-color: #ffffff;
     margin: 100px auto;
@@ -50,11 +158,18 @@ a{
     width: 30%;
     min-width: 300px;
   }
-  
-  h1 {
-    text-align: center; 
+  .btn{
+    float: right;
+    overflow: hidden;
+    border: none; 
+    padding: 14px 16px;
+    background-color:rgb(255, 255, 255);
+    font: message-box;
+    cursor: pointer;
+    color: black;
+    margin-top: 20px;
+    margin-right: 45px;
   }
-  
   input {
     padding: 10px;
     width: 100%;
@@ -62,16 +177,47 @@ a{
     font-family: Raleway;
     border: 1px solid #aaaaaa;
   }
-  
   /* Mark input boxes that gets an error on validation: */
   input.invalid {
     background-color: rgba(248, 18, 10, 0.974);
   }
-  
   /* Hide all steps by default: */
   .tab {
     display: none;
   }
+ /* pretty radio */
+label > input[type="radio"] {
+  display: none;
+}
+label > input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+}
+label > input[type="radio"]:checked + * {
+  color: rgba(248, 106, 10, 0.679);
+}
+label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(rgba(248, 106, 10, 0.679) 0%, rgba(248, 106, 10, 0.679)l 40%, transparent 50%, transparent);
+  border-color: rgba(248, 106, 10, 0.679);;
+}
+
+/* basic layout */
+fieldset {
+  margin: 20px;
+  max-width: 400px;
+}
+label > input[type="radio"] + * {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
   
   button {
     background-color: rgba(248, 106, 10, 0.679);
@@ -111,7 +257,17 @@ a{
   .step.finish {
     background-color: rgba(248, 106, 10, 0.679);
   }
-
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+    }
+    
+/* Form ends here */
 
 
 /* Footer starts here */
@@ -127,25 +283,12 @@ a{
     word-wrap: break-word;
   }
   
-  #f{
-    font-size: 10px;
-    margin-top: 10px;
-    margin-left: 30px; 
-  }
   #c{
     text-align: center;
     background-color:rgba(248, 106, 10, 0.679) ;
     width: 100%;
     color:white;
   }
-    /* * {
-      box-sizing: border-box;
-    } */
-    #mac{
-      word-spacing: 10px;
-    color:white;
-    font-size: 30px;
-    }
     
     [class*="col-"] {
       float: left;
@@ -158,142 +301,12 @@ a{
       clear: both;
       display: table;
     }
-    
-    .top-nav {
-      background-color:rgba(248, 106, 10, 0.679);
-      font-size: 40px;
-      word-break: break-all;
-      text-align: center;
-      width: 100%;
-      height: 50px;
-      margin: 0;
-      color: white;
-    }
-    
     #fa{
     font-size: 15px;
     float: left;
     margin-top: 20px;
     margin-left: 30px;
   }
-  .bttn{
-      font-size: 15px;
-      word-break: break-all;
-      text-align: center;
-      margin: 0;
-      color: white;
-      float: right;
-  }
-  #img1{
-    max-height: 70px;
-    max-width: 70px;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-left: 140px;
-    
-  }
-  #img2{
-    max-width: 50px;
-    max-height: 50px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 40px;
-  }
-  #img3{
-    max-height: 70px;
-    max-width: 70px;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-left: 8px;
-    float: left;
-  }
-  #img4{
-    width: 100%;
-    height: 500px;
-  }
-  #img5{
-    width: 100%;
-    height: 400px;
-  }
-  #img6{
-    width: 40px;
-    height: 32px;
-    float: left;
-    margin-left: 15px;
-    border-radius: 50%;
-  }
-  
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-  
-    .col-1 {
-      width: 8.33%
-    }
-    
-    .col-2 {
-      width: 16.66%
-    }
-    
-    .col-3 {
-      width: 25%
-    }
-    
-    .col-4 {
-      width: 33.33%
-    }
-    
-    .col-5 {
-      width: 41.66%
-    }
-    
-    .col-6 {
-      width: 50%
-    }
-    
-    .col-7 {
-      width: 58.33%
-    }
-    
-    .col-8 {
-      width: 66.66%
-    }
-    
-    .col-9 {
-      width: 75%
-    }
-    
-    .col-10 {
-      width: 83.33%
-    }
-    
-    .col-11 {
-      width: 91.66%
-    }
-    
-    .col-12 {
-      width: 100%
-      
-    }
-    
-    .home-para p {
-      color: white;
-      font-size: 1.5vw;
-    }
     * {
       box-sizing: border-box;
   }
@@ -308,64 +321,51 @@ a{
       clear: both;
       display: table;
   }
-    
-    #h1 {
-      font-size: 20px;
-      color: rgba(248, 106, 10, 0.679);
-      text-align: center;
-      font-weight: bold;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
-    }
-
-    #h2 {
-      font-size: 15px;
-      color: rgba(248, 106, 10, 0.679);
-      text-align: center;
-      font-weight: bold;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
-    }
-    
-    #h {
-      font-size: 30px;
-      color: black;
-      text-align: center;
-    }
-    
-    #h3 {
-      color: white;
-      font-size: 12px;
-    }
-  
-    #f{
-      font-size: 18px;
-      word-break: break-all;
-      text-align: center;
-    }
     #p{
       font-size: 20px;
       word-break: break-all;
-      text-align: center;
       color: #000;
     }
-    #l{
-      font-size: 15px;
+    #pi{
+      font-size: 10px;
+      word-break: break-all;
+      color: #000;
     }
 
-    .cent {
+    #cent {
+      text-align: center;
+      margin-top: 6%;
+      margin-left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(248, 106, 10, 0.679);
+      font-size: 40px;
+    }
+    .centre {
       position: absolute;
       top: 40%;
-      left: 10%;
+      left: 18%;
       transform: translate(-50%, -50%);
       color: white;
       font-size: 20px;
+      text-align: center;
+    }
+    .row {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .home-para  {
+      color: white;
+      font-size: 1.5vw;
     }
 
+
+/* Media query atarts here */
     /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text {font-size: 10px}
 }
-
- /* Responsive layout - makes a two column-layout instead of four columns  */
+/* Responsive layout - makes a two column-layout instead of four columns  */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
@@ -378,3 +378,261 @@ a{
     width: 50%;
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+      width: 100%;
+  }
+  /* Top nav begins here */
+.top-nav {
+  background-color:rgba(248, 106, 10, 0.679);
+  font-size: 10px;
+  word-break: break-all;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  color: white;
+}
+/* Top nav ends here */
+
+
+/* Header starts here  */
+  #head{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+} 
+/* Header ends here */
+
+
+/* Images start here */
+#img1{
+  max-height: 20px;
+  max-width: 20px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 140px;
+}
+#img2{
+  max-width: 20px;
+  max-height: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#img3{
+  max-height: 20px;
+  max-width: 20px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-left: 8px;
+  float: left;
+}
+#img4{
+  width: 100%;
+  height: 500px;
+}
+#img5{
+  max-width: 40px;
+  max-height: 40px;
+  margin-top: 80px;
+  margin-left: 45%;
+}
+#img6{
+  max-width: 20px;
+  max-height: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 80%;
+}
+/* Images end here */
+
+
+/* h begins here */
+#h {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+#h1 {
+  font-size: 12px;
+  color: rgba(248, 106, 10, 0.679);
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#h2 {
+  font-size: 10px;
+  color: rgba(248, 106, 10, 0.679);
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* h ends here  */
+
+/* Form begins here */
+body {
+  background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 15%;
+    min-width: 300px;
+  }
+  .btn{
+    float: right;
+    overflow: hidden;
+    border: none; 
+    padding: 14px 16px;
+    background-color:rgb(255, 255, 255);
+    font: message-box;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    margin-right: 45px;
+    font-size: 10px;
+  }
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 10px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    height: 40%;
+  }
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: rgba(248, 18, 10, 0.974);
+  }
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  button {
+    background-color: rgba(248, 106, 10, 0.679);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgba(248, 106, 10, 0.679);
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: rgba(248, 106, 10, 0.679);
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+    }
+    
+/* Form ends here */
+
+
+/* Footer starts here */
+  footer{
+    background-color:rgba(77, 74, 72, 0.275);
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    height: 530px;
+    margin: 0;
+    font-kerning: normal;
+    word-wrap: break-word;
+  }
+  #c{
+    text-align: center;
+    background-color:rgba(248, 106, 10, 0.679) ;
+    width: 100%;
+    color:white;
+    font-size: 10px;
+    height: 50px;
+  }
+  
+  [class*="col-"] {
+      float: left;
+      padding: 15px;
+  }
+  
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+    #p{
+      font-size: 10px;
+      word-break: break-all;
+      color: #000;
+    }
+
+    .cent {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+    }
+    #cent {
+      text-align: center;
+      margin-top: 5%;
+      margin-left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(248, 106, 10, 0.679);
+      font-size: 10px;
+    }
+    .centre {
+      position: absolute;
+      top: 40%;
+      left: 18%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 10px;
+      text-align: center;
+    }
+
+  }
+/* Media query ends here */
