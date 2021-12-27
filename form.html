@@ -13,7 +13,7 @@
         <a href="Index.html"><img src="img/R.png" id="img3" title="Back to home page"></a>
         <img src="img/logo.jpg" id="img1"><br><br>
         <h id="h1">Loan application form</h><br><br>
-        <h id="h2"><b><marquee>Every space is compulsory</marquee></b></h>
+        <h id="h2"><b><marquee>Write "NILL" where not applicable</marquee></b></h>
         <!-- One "tab" for each step in the form: -->
         <div class="tab">
           <p id="p"><b>Full name as it appears on your<br>national ID/Passport:</b></p><input type="text" placeholder="Full name..." name="fname" required="required"/>
@@ -29,15 +29,13 @@
         </div>
           
         <div class="tab">
-            <p id="p"><b>Are you a member of our bank?</b><br>
-              <label><input type="radio" name="bank" value="Yes" required> <b>Yes</b></label><br>
-              <label><input  type="radio"  name="bank"  value="No" required><b>No</b></label></p>
-          </div>
+          <p id="p"><b>Bank name:</b><input  placeholder="Bank account name..." type="text" name="acc"  pattern=".{10,}" required></p>
+        </div>
 
 
         <div class="tab">
-            <p id="p"><b>If yes, key in your card number:</b><input placeholder="Swedbank card number..." oninput="this.className = ''" name="bn" required></p>
-            </div>
+          <p id="p"><b>Account number</b><input  placeholder="Account number..." type="number" name="num"  pattern=".{10,}" required></p>
+        </div>
 
                   <div class="tab">
                     <p id="p"><b>Employment status:</b><br>
