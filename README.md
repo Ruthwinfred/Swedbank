@@ -1,4 +1,4 @@
-# Swedbank ![image](https://user-images.githubusercontent.com/53862733/147872767-fa2d04a2-5610-424f-b366-53f65a7256a8.png)
+# Swedbank ![image width="20%"](https://user-images.githubusercontent.com/53862733/147872767-fa2d04a2-5610-424f-b366-53f65a7256a8.png)
 
 Swedbank project is a task meant to create a form to be used for loan processing.
 Loans are an important part of our financial growth and so alot of people are interested in it. 
