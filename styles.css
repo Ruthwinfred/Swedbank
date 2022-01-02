@@ -523,9 +523,9 @@ body {
     height: 40%;
   }
   /* Mark input boxes that gets an error on validation: */
-  input.invalid {
+  /* input.invalid {
     background-color: rgba(248, 18, 10, 0.974);
-  }
+  } */
   /* Hide all steps by default: */
   .tab {
     display: none;
