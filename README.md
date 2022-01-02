@@ -11,4 +11,4 @@ In this project, I used three technologies namely:
 
 The form is already published and can be accessed via this link: https://ruthwinfred.github.io/Swedbank/Index.html. First, you'll land on the home window which consist of introduction; part of services offered by Swedbank. Then you can click on "Get our loan" or "Loan application" links to access the form. The form consist of nine mandatory steps to be filled. After submission, you will land on the exit window, after which you can chose to close the chapter or use the "Return to home page" link to go back to the home window.
 
-&#169; Copyright 2020. reuwinnWinnieWinners
+### &#169; Copyright 2020. reuwinnWinnieWinners
